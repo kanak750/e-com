@@ -13,8 +13,8 @@ const CategoryCarousel = (props) => {
       <ul className="flex flex-row  bg-white space-x-3">
         {cat.cat_sublist.map((sub,index) => (
           <li>
-            <div className={`w-24 h-16 flex flex-col ${index === selectedCat ? "bg-slate-900" : "bg-white"} items-center
-             text-slate-500 space-y-2 px-4 py-2`} onClick={()=> setSelectedCat(index)}>
+            <div className={`w-24 h-20 flex flex-col ${index === selectedCat ? "bg-slate-900" : "bg-white"} items-center
+             text-slate-500 space-y-2 px-4 py-2 text-center`} onClick={()=> setSelectedCat(index)}>
             <span className="text-xl">{sub.avatar}</span>
               <span className="text-xs font-bold ">{sub.sub_title}</span>
             </div>

@@ -37,6 +37,38 @@ import boygirltshirt from "../../images/boygirltshirt.jpg";
 import boygirljeans from "../../images/boygirljeans.jpg";
 import infantwear from "../../images/infantwear.jpg";
 
+import { PiTelevisionSimpleDuotone } from "react-icons/pi";
+
+import androidtv from "../../images/androidtv.jpg"
+import fourktv from "../../images/4ktv.jpg"
+import redmitv from "../../images/redmitv.jpg"
+import samsungtv from "../../images/samsungtv.jpg"
+
+
+import { FaLaptop } from "react-icons/fa";
+
+import gaminglaptop from "../../images/gaminglaptop.jpg"
+import windowslaptop from "../../images/windowslaptop.jpg"
+import macbook from "../../images/macbook.jpg"
+import chromebook from "../../images/chromebook.jpg"
+
+import { GiWashingMachine } from "react-icons/gi";
+
+import premium from "../../images/premium.jpg"
+import frontload from "../../images/frontload.jpg"
+import topload from "../../images/topload.jpg"
+import semiautomatic from "../../images/semiautomatic.jpg"
+
+import { FaUtensils } from "react-icons/fa";
+
+import dishwasher from "../../images/dishwasher.jpg"
+
+import { GrMonitor } from "react-icons/gr";
+
+import hdmonitor from "../../images/hdmonitor.jpg"
+import sizeofmonitor from "../../images/sizeofmonitor.jpg"
+
+
 const Homepage = () => {
   const carouselData = [
     {
@@ -106,6 +138,61 @@ const Homepage = () => {
             { item_name: "Boys & Girls Tshirts", item_img: boygirltshirt },
             { item_name: "Boys & Girls Jeans", item_img: boygirljeans },
             { item_name: "Infant Wear", item_img: infantwear },
+          ],
+        },
+      ],
+    },
+    {
+      cat_name: "Electronics",
+      cat_sublist: [
+        {
+          sub_title: "Television",
+          avatar: <PiTelevisionSimpleDuotone />,
+          sub_items: [
+            { item_name: "Android tv", item_img: androidtv },
+            { item_name: "4k tv", item_img: fourktv },
+            { item_name: "Redmi tv", item_img: redmitv },
+            { item_name: "Samsung tv", item_img: samsungtv },
+          ],
+        },
+        {
+          sub_title: "Laptops",
+          avatar: <FaLaptop />,
+          sub_items: [
+            { item_name: "Gaming Laptop", item_img: gaminglaptop },
+            { item_name: "Windows Laptop", item_img: windowslaptop },
+            { item_name: "MacBook", item_img: macbook },
+            { item_name: "Chromebook", item_img: chromebook },
+          ],
+        },
+        {
+          sub_title: "Washing Machine",
+          avatar: <GiWashingMachine />,
+          sub_items: [
+            { item_name: "Top Load", item_img: topload },
+            { item_name: "Front Load", item_img: frontload },
+            { item_name: "Semi Automatic", item_img: semiautomatic },
+            { item_name: "Premium", item_img: premium },
+          ],
+        },
+        {
+          sub_title: "Dish Washer",
+          avatar: <FaUtensils />,
+          sub_items: [
+            { item_name: "Up to 8 place settings", item_img: dishwasher },
+            { item_name: "11 to 12 place settings", item_img: dishwasher },
+            { item_name: "13 to 14 place settings", item_img: dishwasher },
+            { item_name: "15 place settings & above", item_img: dishwasher },
+          ],
+        },
+        {
+          sub_title: "Monitors",
+          avatar: <GrMonitor />,
+          sub_items: [
+            { item_name: "By Screen Quality", item_img: hdmonitor },
+            { item_name: "by Screen Size", item_img: sizeofmonitor },
+            { item_name: "By Aspect Ratio", item_img: sizeofmonitor },
+            { item_name: "By Display Type", item_img: hdmonitor },
           ],
         },
       ],
