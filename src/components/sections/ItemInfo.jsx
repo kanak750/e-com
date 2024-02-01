@@ -34,7 +34,7 @@ return <img src={item}  className="rounded-3xl w-3/4" onClick={() => setCurrentI
                     <div className="px-3 ">0</div>
                     <button  className="font-bold text-orange-600 px-3 text-lg">+</button>
                 </div>
-                <button className="addToCart px-8 py-4 rounded-xl text-white bg-orange-500 flex items-center "><FaShoppingCart />Add to cart</button>
+                <button className="addToCart px-8 py-4 rounded-xl text-white bg-orange-500 flex items-center space-x-1"><span><FaShoppingCart /></span><span>Add to cart</span></button>
             </div>
         </div>
     </div>
